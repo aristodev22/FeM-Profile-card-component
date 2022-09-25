@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(0, 0%, 59%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main.container {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position-x: -30rem, 70rem;
+    background-position-y: -70rem, 30rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card {
+    height: 37.4rem;
+    width: 32.8rem;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-image {
+    border-radius: 2rem 2rem 0 0;
+}
+
+.profile-image {
+    margin-top: -7.1rem;
+    border-radius: 50%;
+    width: 9.6rem;
+    padding: 0.5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+p.name {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    text-align: center;
+}
+
+p.name span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+.location {
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.stats {
+    border-top: 0.1rem solid hsla(227, 10%, 46%, 0.2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+p.stat {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+p.stat-type {
+    font-size: 1rem;
+    margin-top: -0.8rem;
+}
+
+
+
+
+
+
+/**FOOTER**/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(277, 64%, 61%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    padding-left: 4px;
+    text-decoration: none;
+}
